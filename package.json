@@ -1,0 +1,26 @@
+{
+ "name": "TaiiBrowser",
+ "version": "1.0.1",
+ "description": "Taiizor Browser",
+ "main": "Main.js",
+ "author": "Taiizor",
+ "license": "ISC",
+ "dependencies": {},
+ "scripts": {
+  "start": "electron .",
+  "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=Icon.icns --prune=true --out=release-builds",
+  "package-win-x64": "electron-packager . TaiiBrowser --overwrite --asar=true --platform=win32 --arch=x64 --icon=Icon.ico --prune=true --out=release-builds --version-string.CompanyName=\"Taiizor Inc.\" --version-string.FileDescription=\"Taiizor Browser\" --version-string.ProductName=\"Taiizor Browser\"",
+  "package-win-ia32": "electron-packager . TaiiBrowser --overwrite --asar=true --platform=win32 --arch=ia32 --icon=Icon.ico --prune=true --out=release-builds --version-string.CompanyName=\"Taiizor Inc.\" --version-string.FileDescription=\"Taiizor Browser\" --version-string.ProductName=\"Taiizor Browser\"",
+  "package-linux": "electron-packager . TaiiBrowser --overwrite --asar=true --platform=linux --arch=x64 --icon=Icon.ico --prune=true --out=release-builds"
+ },
+ "build": {
+  "appId": "taiizor.realtaiizor",
+  "mac": {
+   "category": "public.app-category.utilities"
+  }
+ },
+ "devDependencies": {
+  "electron": "^8.5.2",
+  "electron-packager": "^15.1.0"
+ }
+}
