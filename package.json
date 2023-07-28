@@ -1,6 +1,6 @@
 {
  "name": "TaiiBrowser",
- "version": "1.0.2",
+ "version": "1.0.3",
  "description": "Taiizor Browser",
  "main": "Main.js",
  "author": "Taiizor",
@@ -19,7 +19,7 @@
   }
  },
  "devDependencies": {
-  "electron": "^16.2.2",
-  "electron-packager": "^15.4.0"
+  "electron": "^25.3.2",
+  "electron-packager": "^17.1.1"
  }
 }
