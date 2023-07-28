@@ -6,3 +6,4 @@
   <img src=".screenshots/UI_2.png" />
   <img src=".screenshots/UI_3.png" />
   <img src=".screenshots/UI_4.png" />
+  <img src=".screenshots/UI_5.png" />
